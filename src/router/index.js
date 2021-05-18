@@ -3,6 +3,12 @@ import Vue from 'vue'
 
 Vue.use(VueRouter)
 
+// const originalPush = VueRouter.prototype.push
+// // 重写了原型上的push方法，统一的处理了错误信息
+// VueRouter.prototype.push = function push(location) {
+//   return originalPush.call(this, location).catch(err => err)
+// }
+
 const Corps = () => import('@/views/corps/Corps')
 const Exchange = () => import('@/views/exchange/Exchange')
 const Home = () => import('@/views/home/Home.vue')
