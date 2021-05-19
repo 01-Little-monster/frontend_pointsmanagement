@@ -21,7 +21,6 @@ import TopItem from '@/components/common/tabNav/TopItem.vue'
       TopItem
     },
   }
-
 </script>
 <style scoped>
 
