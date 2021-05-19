@@ -16,7 +16,7 @@
 		display: flex;
 		position: fixed;
 		top: 0;
-		left: 10px;
-		right: 10px;
+		left: 7px;
+		right: 7px;
 	}
 </style>
