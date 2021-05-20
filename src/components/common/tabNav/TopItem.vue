@@ -23,6 +23,7 @@
     height: 30px;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .top-item-left {
     position: absolute;

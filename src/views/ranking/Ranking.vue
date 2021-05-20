@@ -33,7 +33,6 @@ import TabNav from '@/components/common/tabNav/TabNav.vue'
 </script>
 <style scoped>
   .tab-nav-box {
-    flex: 1;
 		text-align: center;
   }
   .tab-position {

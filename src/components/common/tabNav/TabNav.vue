@@ -14,9 +14,11 @@
   .tab-nav {
     font-size: 12px;
 		display: flex;
+    justify-content: center;
 		position: fixed;
 		top: 0;
-		left: 7px;
-		right: 7px;
+		left: 0;
+		right: 0;
+    /* background-color: #f8fbff; */
 	}
 </style>

@@ -23,5 +23,7 @@ import TopItem from '@/components/common/tabNav/TopItem.vue'
   }
 </script>
 <style scoped>
-
+  .tab-nav {
+    background-color: #f8fbff;
+  }
 </style>

@@ -15,5 +15,5 @@ import MainTop from '@/components/content/MainTop/MainTop.vue'
 
 </script>
 <style scoped>
-
+  
 </style>
