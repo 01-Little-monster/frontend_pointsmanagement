@@ -11,7 +11,7 @@
         </el-row>
         <div slot="item-center">
           <avatar-unit-item-info>
-            <span slot="user-name">小小怪</span>
+            <span slot="user-name">宝宝</span>
             <span slot="user-id">工号：001</span>
           </avatar-unit-item-info>
         </div>

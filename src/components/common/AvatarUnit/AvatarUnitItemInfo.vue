@@ -23,6 +23,7 @@
     font-size: 14px;
   }
   .user-name span {
+    padding: 10px 10px 2px 10px;
     color: #303133;
     /* font-size: 16px; */
     font-weight: 700;

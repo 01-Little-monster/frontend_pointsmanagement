@@ -36,6 +36,7 @@
   .avatar-uint-item-center {
     flex-grow: 10;
     height: 100%;
+    margin-top: 3px;
   }
   .avatar-uint-item-right {
     position: relative;
