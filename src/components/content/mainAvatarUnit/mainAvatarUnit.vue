@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import AvatarUnitBox from '@/components/common/AvatarUnit/AvatarUnitBox.vue'
-import AvatarUnitItem from '@/components/common/AvatarUnit/AvatarUnitItem.vue'
-import AvatarUnitItemInfo from '@/components/common/AvatarUnit/AvatarUnitItemInfo.vue'
+import AvatarUnitBox from 'components/common/AvatarUnit/AvatarUnitBox.vue'
+import AvatarUnitItem from 'components/common/AvatarUnit/AvatarUnitItem.vue'
+import AvatarUnitItemInfo from 'components/common/AvatarUnit/AvatarUnitItemInfo.vue'
   export default {
     name: 'MainAvatarUnit',
     components: {
