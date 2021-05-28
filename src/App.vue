@@ -21,9 +21,10 @@ export default {
       this.$store.commit({
         type: 'changing_over_true',
         callback: () => {
-          console.log(this.$store.state.isCut)
+          return this.$store.state.isCut
         }
       })
+      return this.$store.state.isCut
     }
   }
 }

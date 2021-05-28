@@ -6,4 +6,5 @@ export const isSwitch = () => {
       console.log(this.$store.state.isCut)
     }
   })
+  return this.$store.state.isCut
 }
