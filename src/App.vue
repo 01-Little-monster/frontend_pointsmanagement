@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <main-tab-bar v-if="isSwitch()"></main-tab-bar>
+    <main-tab-bar v-if="isSwitch_app()"></main-tab-bar>
     <jump-index v-else></jump-index>
   </div>
 </template>
@@ -17,9 +17,9 @@ export default {
     JumpIndex
   },
   methods: {
-    isSwitch() {
+    isSwitch_app() {
       this.$store.commit({
-        type: 'changing_over',
+        type: 'changing_over_true',
         callback: () => {
           console.log(this.$store.state.isCut)
         }

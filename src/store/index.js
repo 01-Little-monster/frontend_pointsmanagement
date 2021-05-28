@@ -8,7 +8,7 @@ Vue.use(Vuex)
 //2.创建store对象
 const store = new Vuex.Store({
 	state: {
-		isCut: false
+		isCut: true
 	},
 	//修改store里的东西都需要经过mutations
 	mutations: {
@@ -17,8 +17,12 @@ const store = new Vuex.Store({
 		// 	state.isCut = true
 		// 	payload.callback()
 		// },
-		changing_over(state, payload) {
+		changing_over_true(state, payload) {
 			state.isCut = true
+			payload.callback()
+		},
+		changing_over_false(state, payload) {
+			state.isCut = false
 			payload.callback()
 		}
 	}
