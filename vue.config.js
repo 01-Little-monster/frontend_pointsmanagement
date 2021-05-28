@@ -7,7 +7,8 @@ module.exports = {
 				'components': '@/components',
 				'network': '@/network',
 				'views': '@/views',
-				'router': '@/router'
+				'router': '@/router',
+				'store': '@/store'
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 <template>
   <div>
-    
+
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Index'
+    name: 'JumpIndex'
   }
 
 </script>

@@ -1,17 +1,30 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <main-tab-bar/>
+    <main-tab-bar v-if="isSwitch()"></main-tab-bar>
+    <jump-index v-else></jump-index>
   </div>
 </template>
 
 <script>
 
 import MainTabBar from 'components/content/mainTabBar/MainTabBar'
+import JumpIndex from 'views/jump/JumpIndex.vue'
 export default {
   name: 'App',
   components: {
-    MainTabBar
+    MainTabBar,
+    JumpIndex
+  },
+  methods: {
+    isSwitch() {
+      this.$store.commit({
+        type: 'changing_over',
+        callback: () => {
+          console.log(this.$store.state.isCut)
+        }
+      })
+    }
   }
 }
 </script>
