@@ -1,31 +1,31 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <main-tab-bar v-if="isSwitch_app()"></main-tab-bar>
-    <jump-index v-else></jump-index>
+    <main-tab-bar></main-tab-bar>
+    <!-- <jump-index v-else></jump-index> -->
   </div>
 </template>
 
 <script>
 
 import MainTabBar from 'components/content/mainTabBar/MainTabBar'
-import JumpIndex from 'views/jump/JumpIndex.vue'
+// import JumpIndex from 'views/jump/JumpIndex.vue'
 export default {
   name: 'App',
   components: {
     MainTabBar,
-    JumpIndex
+    // JumpIndex
   },
   methods: {
-    isSwitch_app() {
-      this.$store.commit({
-        type: 'changing_over_true',
-        callback: () => {
-          return this.$store.state.isCut
-        }
-      })
-      return this.$store.state.isCut
-    }
+    // isSwitch_app() {
+    //   this.$store.commit({
+    //     type: 'changing_over_true',
+    //     callback: () => {
+    //       return this.$store.state.isCut
+    //     }
+    //   })
+    //   return this.$store.state.isCut
+    // }
   }
 }
 </script>

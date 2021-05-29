@@ -6,7 +6,7 @@
 </template>
 <script>
 
-import MainTop from '@/components/content/MainTop/MainTop.vue'
+import MainTop from 'components/content/MainTop/MainTop.vue'
 import MainAvatarUnit from 'components/content/mainAvatarUnit/MainAvatarUnit.vue'
   export default {
     name: 'Profile',

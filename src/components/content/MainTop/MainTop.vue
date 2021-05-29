@@ -13,13 +13,18 @@
 
 <script>
 import TabNav from '@/components/common/tabNav/TabNav.vue'
-import TopItem from '@/components/common/tabNav/TopItem.vue'
+import TopItem from 'components/common/tabNav/TopItem.vue'
+// import {isSwitch} from 'common-js/isSwitch.js'
   export default {
     name: 'MainTop',
     components: {
       TabNav,
       TopItem
     },
+    methods: {
+      
+
+    }
   }
 </script>
 <style scoped>

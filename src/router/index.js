@@ -3,11 +3,12 @@ import Vue from 'vue'
 
 Vue.use(VueRouter)
 
-const Corps = () => import('@/views/corps/Corps')
-const Exchange = () => import('@/views/exchange/Exchange')
-const Home = () => import('@/views/home/Home.vue')
-const Profile = () => import('@/views/profile/Profile')
-const Ranking = () => import('@/views/ranking/Ranking')
+const Login = () => import('views/login/Index')
+const Corps = () => import('views/corps/Corps')
+const Exchange = () => import('views/exchange/Exchange')
+const Home = () => import('views/home/Home.vue')
+const Profile = () => import('views/profile/Profile')
+const Ranking = () => import('views/ranking/Ranking')
 
 const routes = [
   {
@@ -17,6 +18,10 @@ const routes = [
   { // 首页
     path: '/home',
     component: Home
+  },
+  { // 登录
+    path: '/login',
+    component: Login
   },
   { // 排行榜
     path: '/ranking',
